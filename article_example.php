@@ -9,7 +9,7 @@ error_reporting(-1);
  */
 include_once 'Article.php';
 use phpNYT\Article;
-$k = "db63fa0017d94bad9f0874aaae6e54dd:0:69818565";
+$k = "xxxxxxx:xxxxxxxx";
 $articles = new Article($k);
 $articles->sort = "newest";
 $articles->keyword = "ISIS";
